@@ -21,8 +21,8 @@ int main()	{
 	two obj2;
 	
 	one *p;
-	p=&obj1;	//here, p belongs to class one
-	//p=&obj2; //uncomment to see the runtime polymorphism, p will belong to class two then
+	//p=&obj1;	//here, p belongs to class one
+	p=&obj2; //uncomment to see the runtime polymorphism, p will belong to class two then
 	
 	p->show();
 }
